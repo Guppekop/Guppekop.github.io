@@ -1,0 +1,95 @@
+*{
+	padding:0;
+	margin:0;
+}
+body{
+/*	background-color:blue;*/
+	margin: 0;
+	padding:0;
+}
+.noRepeat{
+	background-repeat:no-repeat;
+}
+main{
+	margin:0 auto;
+	width:1600px;
+	height:720px;
+	background-image:url('../images/fnaf/126.png');
+	position: relative;
+}
+
+.buttonLeft{
+	background-image:url('../images/fnaf/122.png');
+	height:247px;
+	width:92px;
+	position:absolute;
+	top:300px;
+	left:0px;
+}
+
+.buttonClickBox{
+	width:40px;
+	height:60px;
+}
+
+#doorButtonLeft{
+	position:absolute;
+	top:50px;
+	left:30px;
+}
+#lightButtonLeft{
+	position:absolute;
+	top:125px;
+	left:30px;
+}
+
+#doorButtonRight{
+	position:absolute;
+	top:50px;
+	left:20px;
+}
+#lightButtonRight{
+	position:absolute;
+	top:125px;
+	left:20px;
+}
+
+.buttonRight{
+	background-image:url('../images/fnaf/134.png');
+	height:247px;
+	width:92px;
+	position:absolute;
+	top:300px;
+	right:35px;
+}
+
+.noseHonk{
+	position:absolute;
+	width:10px;
+	height:10px;
+/*	background-color:purple;*/
+	left:672px;
+	top:235px;
+}
+
+.leftDoor{
+	background-image:url('../images/fnaf/88.png');
+	height:720px;
+	width:223px;
+	position:absolute;
+	left:75px;
+/*	border:solid 1px purple;*/
+}
+
+.rightDoor{
+	background-image:url('../images/fnaf/88.png');
+	height:720px;
+	width:223px;
+	position:absolute;
+	right:110px;
+}
+
+
+.flip-horizontal {
+    transform: scaleX(-1);
+}
